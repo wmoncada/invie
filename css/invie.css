@@ -1,1 +1,3 @@
-*{border:1px solid #f00;margin:10px}article h3{color:#008000}header{background:#00f}section{background:#800080}.title-a{background:#ff0}.title-b{background:#fa8072}#guitarra{border:3px solid #00f}#header{border:3px solid #000}#portada{border:3px solid #a52a2a}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Allerta");
+body{font-family:'Allerta',sans-serif}.guitarras{color:#1f313c;}.guitarras h2{font-size:35px}.menu{font-size:24px}.portada{background-image:url("../images/background.png");color:#fff}.titulo{font-family:'Montserrat',sans-serif;font-size:70px}.titulo-a{font-size:24px}.titulo-b{font-size:50px}
