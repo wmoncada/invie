@@ -73,9 +73,51 @@
                     <span>contacto@envie.com</span>
                 </a>
             </div>
-            <div class="formulario">
-                formulario
-            </div>
+            <form class="formulario">
+                <label for="txt-nombre">Nombre</label>
+                <input type="text" id="txt-nombre" name="txt-nombre" required />
+
+                <label for="txt-email">E-mail</label>
+                <input type="email" id="txt-email" name="txt-email" required />
+
+                <div class="radio">
+                    <label for="rb-mujer">
+                        <input type="radio" id="rb-mujer" name="rb-sexo" />Mujer
+                    </label>
+                    <label for="rb-hombre">
+                        <input type="radio" id="rb-hombre" name="rb-sexo" />Hombre
+                    </label>
+                </div>
+
+                <div class="intereses">
+                    <label for="chk-cotizacion">
+                        <input type="checkbox" id="chk-cotizacion" />
+                        Cotización
+                    </label>
+
+                    <label for="chk-reclamos">
+                        <input type="checkbox" id="chk-reclamos" >
+                        Reclamos
+                    </label>
+
+                    <label for="chk-comentarios">
+                        <input type="checkbox" id="chk-comentarios">
+                        Comentarios
+                    </label>
+
+                    <label for="chk-otros">
+                        <input type="checkbox" id="chk-otros">
+                        Otros
+                    </label>
+                </div>
+                <div>
+                    <label for="txt-comentarios">
+                        Comentarios
+                    </label>
+                    <textarea id="txt-comentarios"></textarea>
+                    <input type="submit" />
+                </div>
+            </form>
         </div>
     </footer>
 </body>
