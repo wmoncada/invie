@@ -5,28 +5,80 @@
  * font-family: 'Montserrat', sans-serif;
  * font-family: 'Allerta', sans-serif;
  */
- body
+ 
+ANCHO_PAGINA = 800px;
+COLOR_FUENTE = #1F313C;
+
+body
  	font-family 'Allerta', sans-serif
+ 	margin 0
+ 
+header 
+	position relative
+.contenedor 
+	margin auto
+	width ANCHO_PAGINA
+
+.contenedor-guitarra-a
+	padding-left 20px
+	
+.contenedor-guitarra-b
+	margin-left 370px
+
+.derecha 
+	float right
+	position relative
+	top -127px
+
+.guitarra 	
+	/*overflow hidden*/
+	border 1px solid COLOR_FUENTE
+	margin 10px
+	padding 10px
+	ol 
+		padding 0
 
 .guitarras
-	color #1f313c
+	color COLOR_FUENTE
 	h2
 		font-size 35px
 
+.izquierda
+	float left
+	position relative
+	top 80px
+
+.logotipo
+	display inline-block
+
 .menu
 	font-size 24px
+	display inline-block
+	position absolute
+	right 0
+	li 
+		display inline-block
+		margin-left 30px
 
 .portada
 	background-image url("../images/background.png")
 	color white
+	padding 20px
+	
+	button
+		margin-bottom 70px
 
 .titulo
 	font-family 'Montserrat', sans-serif
 	font-size 70px
+	margin-bottom 0
+	margin-top 70px
 
 .titulo-a
 	font-size 24px
+	margin-top 0
 
 .titulo-b
 	font-size 50px
+	margin-bottom 20px
 	
