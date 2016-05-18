@@ -25,7 +25,7 @@ body
 
 footer
 	background COLOR_FOOTER
-	
+	margin-top 10px
 	.contenedor
 		display flex
 		justify-content space-between 
@@ -33,6 +33,22 @@ footer
 header 
 	position relative
 
+table, td, th 
+	border 1px solid COLOR_FOOTER
+	border-collapse collapse
+
+table 
+	width 100%
+
+td 
+	padding 20px
+	
+th 
+	background COLOR_FOOTER
+	color white
+	padding 10px
+	text-align rigth
+	
 .contacto
 	display flex
 	width 300px
@@ -121,6 +137,9 @@ header
 	li 
 		display inline-block
 		margin-left 30px
+		
+		:before
+			content ' - '
 
 .portada
 	background-image url("../images/background.png")
