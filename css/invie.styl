@@ -7,7 +7,8 @@
  */
  
 ANCHO_PAGINA = 800px;
-COLOR_BOTON = #FD324E;
+COLOR_BOTON = #FE344E;
+COLOR_BOTON2 = #FF7250;
 COLOR_FUENTE = #1F313C;
 COLOR_FOOTER = #273B47;
 COLOR_FOOTER_LINK = #FFF;
@@ -17,11 +18,15 @@ body
  	margin 0
 
 .button
-	background COLOR_BOTON
+	//background COLOR_BOTON
+	background linear-gradient(to left, COLOR_BOTON, COLOR_BOTON2)
 	border none
-	border-radius 5px
+	border-radius 12px
 	color white
-	padding 7px
+	font-size 18px
+	padding 7px 12px
+	cursor pointer
+	text-decoration none
 
 footer
 	background COLOR_FOOTER
@@ -128,24 +133,30 @@ th
 
 .logotipo
 	display inline-block
+	margin-left 0
 
 .menu
 	font-size 24px
 	display inline-block
 	position absolute
 	right 0
+	a
+		color white
+		text-decoration none
 	li 
 		display inline-block
 		margin-left 30px
 		
 		:before
-			content ' - '
+			content '∘'
+			color white
 
 .portada
 	background-image url("../images/background.png")
+	background-size cover
 	color white
 	padding 20px
-	
+	height 500px
 	button
 		margin-bottom 70px
 
@@ -156,6 +167,8 @@ th
 	font-size 70px
 	margin-bottom 0
 	margin-top 70px
+	span 
+		text-decoration underline
 
 .titulo-a
 	font-size 24px
