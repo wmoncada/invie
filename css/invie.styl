@@ -16,6 +16,11 @@ COLOR_FOOTER_LINK = #FFF;
 body
  	font-family 'Allerta', sans-serif
  	margin 0
+ 
+ input, textarea 
+ 	outline 0
+ 	&:focus
+ 		background lightgray
 
 .button
 	//background COLOR_BOTON
@@ -29,8 +34,9 @@ body
 	text-decoration none
 
 footer
+	padding 50px 10px
 	background COLOR_FOOTER
-	margin-top 10px
+	//margin-top 10px
 	.contenedor
 		display flex
 		justify-content space-between 
@@ -44,6 +50,7 @@ table, td, th
 
 table 
 	width 100%
+	margin 50px 0
 
 td 
 	padding 20px
@@ -53,10 +60,14 @@ th
 	color white
 	padding 10px
 	text-align rigth
+
+.background
+	background-image url("../images/background.png")
+	background-size cover
 	
 .contacto
 	display flex
-	width 300px
+	width 350px
 	flex-wrap wrap
 	align-items center
 	img 
@@ -78,10 +89,13 @@ th
 
 .col2
 	align-items flex-start	
+	.button
+		margin-top 15px
 
 .contenedor 
 	margin auto
 	width ANCHO_PAGINA
+	position relative
 
 .contenedor-guitarra-a
 	padding-left 20px
@@ -100,7 +114,6 @@ th
 	display flex
 	widt 400px
 	color white
-	padding 50px 10px
 	
 	label, .sexo, .intereses
 		margin-bottom 10px
@@ -158,8 +171,6 @@ th
 			color white
 
 .portada
-	background-image url("../images/background.png")
-	background-size cover
 	color white
 	padding 20px
 	height 500px
